@@ -1,0 +1,66 @@
+﻿<div class="page-wrapper mdc-toolbar-fixed-adjust">
+    <main class="content-wrapper">
+        <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Line chart</h6>
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Bar chart</h6>
+                        <canvas id="barChart"></canvas>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Area chart</h6>
+                        <canvas id="areaChart"></canvas>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Doughnut chart</h6>
+                        <canvas id="doughnutChart"></canvas>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Pie chart</h6>
+                        <canvas id="pieChart"></canvas>
+                    </div>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                    <div class="mdc-card">
+                        <h6 class="card-title">Scatter chart</h6>
+                        <canvas id="scatterChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- partial:../../partials/_footer.html -->
+    <partial name="Footer" />
+    <!-- partial -->
+</div>
+
+
+@section Scripts {
+
+
+    <script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- Plugin js for this page-->
+    <script src="~/assets/vendors/chartjs/Chart.min.js"></script>
+    <!-- End plugin js for this page-->
+    <!-- inject:js -->
+    <script src="~/assets/js/material.js"></script>
+    <script src="~/assets/js/misc.js"></script>
+    <!-- endinject -->
+    <!-- Custom js for this page-->
+    <script src="~/assets/js/chartjs.js"></script>
+
+
+}
